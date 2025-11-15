@@ -5,12 +5,19 @@
 
 git config --global user.email "@gmail.com"
 git config --global user.name "Igor Trindade"
+git config --global init.defaultBranch main
 
 sudo apt update
 
 # After copying the old ssh keys to backward compability
 chmod 600 ~/.ssh/id_rsa
 chmod 700 ~/.ssh
+
+# On each repository
+git init
+git remote add origin [:git url]
+git pull
+git checkou main --force
 
 
 ```
