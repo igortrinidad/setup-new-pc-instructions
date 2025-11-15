@@ -68,3 +68,9 @@ sudo apt-get update && sudo apt-get install -y --no-install-recommends \
     ffmpeg \
     tzdata
 ```
+
+
+### Install Homebrew
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
