@@ -6,6 +6,7 @@
 git config --global user.email "@gmail.com"
 git config --global user.name "Igor Trindade"
 git config --global init.defaultBranch main
+git config --global pull.rebase false
 
 sudo apt update
 
